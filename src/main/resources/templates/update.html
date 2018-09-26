@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title> update</title>
+	</head>
+	<body>
+		<div th:if="${Founded}">
+        	<h1> data berhasil diubah</h1>
+    	</div>
+   
+    <div th:unless="${Founded}">
+        <h1> id kosong, proses update dibatalkan</h1>
+    </div>
+	</body>
+	
+
+</html>

@@ -1,0 +1,36 @@
+Ilham pamungkas nasution
+1606918206
+APAP-C
+
+localhost:8080/pilot/add?id=1&licenseNumber=1234&name=Jono&flyHour=20
+Pertanyaan 1
+?
+tidak error
+
+
+localhost:8080/pilot/add?id=1&licenseNumber=1234&name=Jono
+Pertanyaan 2: 
+?
+error, karena data yang dimasukkan tidak lengkap sedangkan di paramater class pilot
+pengisian semua paramater harus ada.
+
+
+3.Jalankan program dan buka
+localhost:8080/pilot/add?id=1&licenseNumber=1234&name=Jono&flyHour=20
+localhost:8080/pilot/view?licenseNumber=1234
+Pertanyaan 3
+?
+: apakah data Pilot tersebut muncul? Jika tidak, mengapa?
+Muncul
+
+
+4. Coba matikan program dan jalankan kembali serta buka
+localhost:8080/pilot/view?licenseNumber=1234
+Pertanyaan 4
+?
+: apakah data Pilot tersebut muncul? Jika tidak, mengapa?
+tidak muncul, karena disini masih belum ada database, dan file tersimpan di RAM
+sehingga ketika proses di stop data juga ikut menghilang
+
+5. apakah data pilot tersebut muncul? ya muncul
+6. apakah semua data pilot muncul? ya muncul
